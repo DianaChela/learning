@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: green;
+    padding: 20px;
+    font-size: 1.5em;
+    color: yellow;
+}
+
+/* Navigation */
+nav {
+    background-color: #008cba;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav ul li {
+    display:inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.alphabet{
+    display: flex;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.learning-slide {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.learning-slide img {
+    width: 300px;
+    height: auto;
+    margin-right: 80px;
+    animation: slide-left 15s linear infinite;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Main Content Section */
+main {
+    padding: 20px;
+}
+
+.content-section {
+    margin-bottom: 30px;
+}
+.video {
+    display: flex;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 800px; 
+}
+.learning-video { 
+    
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+.learning-video source {
+margin-right: 80px;
+
+}
+
+
+.alphabet-grid button, .math-puzzle button {
+    padding: 15px;
+    font-size: 1.5em;
+    margin: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.alphabet-grid button:hover, .math-puzzle button:hover {
+    background-color: #ffa500;
+}
+
+/* Footer */
+footer {
+    background-color: #008cba;
+    color: rgb(214, 20, 20);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+

@@ -1,0 +1,72 @@
+<html>
+<head>
+    
+    <title>BRIGHT BEGGININGS</title>
+    <link rel="stylesheet" href="kids.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1> <b>Learning is fun!</b></h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#alphabet">Learn Alphabet</a></li>
+            <li><a href="#numbers">learn counting</a></li>
+            <li><a href="#shapes">learn shapes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Alphabet Section -->
+        <section id="alphabet" class="content-section"> 
+            <h2>Let us learn!</h2>
+            <div class="learning-slide">
+                <img src="alphabet chart.jpg" alt="Alphabet Chart">
+                <img src="number.jpg" alt="Number Chart">
+                <img src="shapees.jpg" alt="Shapes Chart">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+
+        <!-- Math Games Section -->
+        <section id="math" class="content-section">
+            <h2>Math Games</h2>
+            <p>what is the right answer?</p>
+            <div class="math-puzzle">
+                <p>1+ 1 = ?</p>
+                <button onclick="checkAnswer(1)">1</button>
+                <button onclick="checkAnswer(2)">2</button>
+                <button onclick="checkAnswer(11)">11</button>
+            </div>
+            <p id="math-feedback"></p>
+        </section>
+
+        <!-- video Section -->
+        <section id="video" >
+            <h2>video fun</h2>
+            <p>Listen to video gameS:</p>
+            <div class="learning-video">
+            <video  width="360" height="240" controls>
+                <source src="ABC SONG.mp4"  type="video/mp4">
+            </video>
+            <video  width="360" height="240" controls>
+                <source src="song.mp4"  type="video/mp4">
+                
+                
+                 </video>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>we enjoy Learning!</p>
+    </footer>
+
+    <script src="kids.js"></script>
+</body>
+</html>
